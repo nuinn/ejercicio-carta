@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: var(--blue);
+    background-color: var(--yellow);
+}
+/* Reduce HTML font-weight */
+b, strong{
+    font-weight: 600;
+}
+
+b{
+    vertical-align: sub;
+}
+
+/* Indent HTML lists */
+ul, ol {
+    /* text-align: ; */
+    list-style-position: inside;
+    margin: 12px 0px;
+}
+
+li {
+    margin: 6px 0px;
+}
+
+h3{
+    margin: 24px 0px 12px;
+    color: var(--green);
+    font-weight: 800;
+
+}
+dl{
+    margin: 12px 0px 0px 12px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+dt{
+    color: var(--orange);
+    font-weight: 600;
+    padding-top: 8px;
+    text-decoration: overline;
+}
+
+dd{
+    margin: 6px 0px 6px 12px;
+}
+
+:root {
+    --yellow: #F4F1DE;
+    --blue: #3D405B;
+    --green: #81B29A;
+    --orange: #E07A5F;
+    --black: #283618;
+    --white: #F0EFEB;
+}
+
+.header {
+    padding: 6px 16px 0px;
+
+    background-color: var(--green);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.header *{
+    background-color: var(--green);
+    line-height: 140%;
+    font-size: 12px;
+    color: var(--black);
+}
+
+.date {
+    color: var(--white);
+    margin: 10px 0px;
+    font-size: 18px;
+    
+}
+
+.to {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 300;
+    color: var(--white);
+    text-decoration: underline overline;
+}
+
+.body {
+    line-height: 120%;
+    padding: 20px 240px;
+    padding-top:200px;
+    text-align: justify;
+
+}
+
+footer{
+    width: 100%;
+    
+}
+
+footer *{
+    background-color: var(--orange);
+}
+
+.flexcont{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 0px 240px;
+    
+}
+
+.signoff{
+    font-weight: 500;
+    line-height: 200%;
+}
+
+.moredetails{
+    font-weight: 700;
+    
+    line-height: 200%;
+}
+
+.moredetails :first-child{
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.quote, .quote :first-child{
+    text-align: center;
+    color: var(--white);
+    font-weight: 200;
+    padding: 20px;
+}
+
+
+
+/* .intro {
+    margin-bottom: 24px;
+} */
